@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Joshua.unity
+    guid: f6c9df32b21121c44b54271ecb729b2f
   m_configObjects: {}
