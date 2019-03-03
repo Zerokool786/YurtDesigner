@@ -49,16 +49,16 @@ public class CamRotation : MonoBehaviour
 
     void OnMouseDown()
     {
-        // rotating flag
+        
         _isRotating = true;
 
-        // store mouse
+        
         _mouseReference = Input.mousePosition;
     }
 
     void OnMouseUp()
     {
-        // rotating flag
+        
         _isRotating = false;
     }
 
