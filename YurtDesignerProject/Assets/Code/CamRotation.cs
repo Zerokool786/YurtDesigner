@@ -57,8 +57,7 @@ public class CamRotation : MonoBehaviour
     }
 
     void OnMouseUp()
-    {
-        
+    {      
         _isRotating = false;
     }
 
