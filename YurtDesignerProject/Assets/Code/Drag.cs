@@ -9,6 +9,11 @@ public class Drag : MonoBehaviour
     float posY;
     [SerializeField]Camera camera1;
 
+    private void Start()
+    {
+        camera1 = GameObject.Find("BuilderCam").GetComponent<Camera>();
+    }
+
     private void OnMouseDown()
     {
         distance = camera1.WorldToScreenPoint(transform.position);

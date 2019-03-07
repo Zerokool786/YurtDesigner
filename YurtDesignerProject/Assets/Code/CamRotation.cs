@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class CamRotation : MonoBehaviour
 {
@@ -9,16 +10,19 @@ public class CamRotation : MonoBehaviour
 
     void OnMouseDrag()
     {
+        if(!EventSystem.current.IsPointerOverGameObject())
+        {
+            float mouseX = -Input.GetAxis("Mouse X");
+            float mouseY = Input.GetAxis("Mouse Y");
+            float rotAmountX = mouseX * Time.deltaTime * speed;
+            float rotAmountY = mouseY * Time.deltaTime * speed;
 
-        float mouseX = -Input.GetAxis("Mouse X");
-        float mouseY = Input.GetAxis("Mouse Y");
-        float rotAmountX = mouseX * Time.deltaTime * speed;
-        float rotAmountY = mouseY * Time.deltaTime * speed;
+            pitch = Mathf.Clamp(pitch - rotAmountY, -80f, 80f);
+            yaw += rotAmountX;
 
-        pitch = Mathf.Clamp(pitch - rotAmountY, -80f, 80f);
-        yaw += rotAmountX;
-
-        transform.rotation = Quaternion.Euler(pitch, yaw, 0f);
+            transform.rotation = Quaternion.Euler(pitch, yaw, 0f);
+        }
+        
 
     }
 

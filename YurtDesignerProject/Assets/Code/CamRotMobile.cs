@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class CamRotMobile : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class CamRotMobile : MonoBehaviour
 
     void OnMouseDrag()
     {
-        if(Input.touchCount == 1 && notZooming == true)
+        if(Input.touchCount == 1 && notZooming == true && !EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
         {
             float mouseX = -Input.GetAxis("Mouse X"); 
             float mouseY = Input.GetAxis("Mouse Y");
