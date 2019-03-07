@@ -433,7 +433,7 @@ PrefabInstance:
     - target: {fileID: 7761179147708366716, guid: b3fb9bd6badc1ca4989980eb24fdfc89,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -156.41852
+      value: -156.41858
       objectReference: {fileID: 0}
     - target: {fileID: 7761179147708366716, guid: b3fb9bd6badc1ca4989980eb24fdfc89,
         type: 3}
@@ -1361,7 +1361,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d8b45217f147444b999e662535e8b6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camRotMobile: {fileID: 0}
+  zoomSpeed: 0.1
+  camRotMobile: {fileID: 1825427895}
   camera: {fileID: 534669904}
 --- !u!1 &670592616
 GameObject:
@@ -2112,7 +2113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   notZooming: 1
-  speed: 400
+  speed: 100
 --- !u!1 &1907855928
 GameObject:
   m_ObjectHideFlags: 0
