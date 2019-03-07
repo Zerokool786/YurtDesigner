@@ -436,12 +436,12 @@ PrefabInstance:
     - target: {fileID: 6591141676757663351, guid: 2ff03aeed24012c4ba6caeb286d37222,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.000061035156
+      value: -40.393097
       objectReference: {fileID: 0}
     - target: {fileID: 6591141676757663351, guid: 2ff03aeed24012c4ba6caeb286d37222,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -136.3696
+      value: -136.36948
       objectReference: {fileID: 0}
     - target: {fileID: 6591141677924610216, guid: 2ff03aeed24012c4ba6caeb286d37222,
         type: 3}
@@ -1392,7 +1392,6 @@ GameObject:
   - component: {fileID: 1825427893}
   - component: {fileID: 1825427892}
   - component: {fileID: 1825427891}
-  - component: {fileID: 1825427895}
   - component: {fileID: 1825427896}
   m_Layer: 0
   m_Name: ExteriorCam
@@ -1474,19 +1473,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1825427895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825427890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1817544bfb4b63a47982e8a890ae11da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 400
 --- !u!114 &1825427896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1500,7 +1486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   notZooming: 1
-  speed: 200
+  speed: 100
 --- !u!1 &2098101863
 GameObject:
   m_ObjectHideFlags: 0
