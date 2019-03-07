@@ -39,12 +39,12 @@ public class BuildMode : MonoBehaviour
         {
             Collider[] hitColliders = Physics.OverlapSphere(objInsPosition, radius);
             
-            Debug.Log(hitColliders[0]);
+            //Debug.Log(hitColliders[0]);
 
-            if (hitColliders[0].tag != "Camera")//Ignore camera objects
-            {
-                Destroy(hitColliders[0].gameObject);
-            }
+            //if (hitColliders[0].tag != "Camera")//Ignore camera objects
+            //{
+            //    Destroy(hitColliders[0].gameObject);
+            //}
             AddObjectToScene();
         }
     }
