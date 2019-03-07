@@ -251,7 +251,12 @@ PrefabInstance:
     - target: {fileID: 7761179147708366716, guid: b3fb9bd6badc1ca4989980eb24fdfc89,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -149.50967
+      value: -156.41861
+      objectReference: {fileID: 0}
+    - target: {fileID: 7761179147708366716, guid: b3fb9bd6badc1ca4989980eb24fdfc89,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000061035156
       objectReference: {fileID: 0}
     - target: {fileID: 7761179146396139976, guid: b3fb9bd6badc1ca4989980eb24fdfc89,
         type: 3}
@@ -1169,12 +1174,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d8b45217f147444b999e662535e8b6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camRotMobile: {fileID: 0}
+  camRotMobile: {fileID: 1825427896}
   camera: {fileID: 534669904}
 --- !u!1 &670592616
 GameObject:
@@ -1768,7 +1773,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825427890}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1817544bfb4b63a47982e8a890ae11da, type: 3}
   m_Name: 
@@ -1780,7 +1785,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825427890}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 756bff7b0b5789244a51c67600e65fab, type: 3}
   m_Name: 
