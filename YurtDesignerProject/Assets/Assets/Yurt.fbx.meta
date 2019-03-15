@@ -534,10 +534,10 @@ ModelImporter:
     weldVertices: 1
     preserveHierarchy: 0
     indexFormat: 0
-    secondaryUVAngleDistortion: 12
+    secondaryUVAngleDistortion: 10
     secondaryUVAreaDistortion: 15
-    secondaryUVHardAngle: 82
-    secondaryUVPackMargin: 9
+    secondaryUVHardAngle: 100
+    secondaryUVPackMargin: 12
     useFileScale: 1
     previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 0
