@@ -199,11 +199,12 @@ ModelImporter:
     2100002: Material.003
     2100004: No Name
     2100006: Material
-    2100008: Material.002
-    2100010: Material.006
-    2100012: Door
-    2100014: Material.005
-    2100016: Material.001
+    2100008: Material.007
+    2100010: Material.002
+    2100012: Material.006
+    2100014: Door
+    2100016: Material.005
+    2100018: Material.001
     2300000: Circle
     2300002: Circle.001
     2300004: Cube
@@ -534,15 +535,15 @@ ModelImporter:
     weldVertices: 1
     preserveHierarchy: 0
     indexFormat: 0
-    secondaryUVAngleDistortion: 10
+    secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15
-    secondaryUVHardAngle: 100
-    secondaryUVPackMargin: 12
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 7
     useFileScale: 1
     previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
-    normalSmoothAngle: 60
+    normalSmoothAngle: 80
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
