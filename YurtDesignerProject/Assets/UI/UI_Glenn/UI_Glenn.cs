@@ -13,30 +13,28 @@ public class UI_Glenn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Checks there is a selection panel in scene
 		if(SelectionPanelObj == null)
         {
             Debug.Log("Selection Panel is not set");
         }
 
-		anim = SelectionPanelObj.GetComponent<Animator>();
+		anim = SelectionPanelObj.GetComponent<Animator>();//Gets animation 
     }
-    
-	public void ShowHidePanel(){
-		
-		Debug.Log ("I is a button");
 
-		if (isHidden) {
-			
-			Debug.Log ("Show panel");
-			isHidden = false;
-            			
+    /// <summary>
+    /// Plays the show of hide selection anel animation
+    /// </summary>
+	public void ShowHidePanel()
+    {
+		if (isHidden)
+        {		
+			isHidden = false;            			
             anim.Play("SelectionPanelAnim");
-
-		}else{
-			
-			Debug.Log ("Hide Panel");
+		}
+        else
+        {			
 			isHidden = true;
-
             anim.Play("SelectionPanelAnimHide");
 		}
 	}
