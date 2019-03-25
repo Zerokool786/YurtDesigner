@@ -6,6 +6,9 @@ public class SelectionButton : MonoBehaviour
 {
     public GameObject content;
     
+    /// <summary>
+    /// Sets the scrollrect list content to active or inactive on button press
+    /// </summary>
     public void ShowHideContent()
     {
         if(content.activeInHierarchy == true)

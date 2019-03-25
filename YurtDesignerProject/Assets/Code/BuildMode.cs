@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BuildMode : MonoBehaviour
 {
-    Vector3 objInsPosition = new Vector3(2, 0, 0); //Variable to store instantiation location
+    Vector3 objInsPosition = new Vector3(0, -1.3f, 0); //Variable to store instantiation location
     Quaternion objInsRotation = new Quaternion(0f, 0f, 0f, 0f); // Variable to store instantiation rotation
     [SerializeField] GameObject spawnObject; //Object to instantiate
 
